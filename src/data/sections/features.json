@@ -1,26 +1,44 @@
 [
-    {
-        "id": 1,
-        "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
-    },
-    {
-        "id": 2,
-        "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
-    },
-    {
-        "id": 3,
-        "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
-    },
-    {
-        "id": 4,
-        "icon": "pe-7s-diskette",
-        "title": "Document Legal Policy",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
-    }
+  {
+    "id": 1,
+    "icon": "fa fa-shield-alt",
+    "title": "Defensa civil",
+    "phone": "3513876777",
+    "content": "Silvio Rojas"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-book-medical",
+    "title": "Salud",
+    "phone": "3516626150",
+    "content": "Alicia Palacios"
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-ambulance",
+    "title": "Unidad de traslado",
+    "phone": "3515949794",
+    "content": "José Moreno"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-volleyball-ball",
+    "title": "Deportes",
+    "phone": "3513329381",
+    "content": "Susana Ramón"
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-id-card",
+    "title": "Licencias de conducir",
+    "phone": "3513329381",
+    "content": "Susana Ramón"
+  },
+  {
+    "id": 6,
+    "icon": "fa fa-question",
+    "title": "Otras consultas",
+    "phone": "351 552 5738",
+    "content": "Comuna"
+  }
 ]

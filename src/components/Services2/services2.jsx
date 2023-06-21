@@ -8,56 +8,64 @@ const Services2 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
-              <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
-              </h6>
-              <h3 className="wow color-font">
-                We are a new digital product development agency
-              </h3>
+              <h5 className="wow color-font">
+                Generamos espacios de interacción entre la sociedad y el Estado
+                para articular la colaboración y participación ciudadana
+              </h5>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-            <div className="step-item xtop">
-              <span className="icon pe-7s-gleam"></span>
-              <h6>Digital Marketing</h6>
-              <p>
-                Tempore corrupti temporibus fuga earum asperiores fugit
-                laudantium.
-              </p>
+            <div className="step-item xtop ">
+              <h6>Gobierno electrónico</h6>
+              <ul className="text-left">
+                <li>
+                  <span>●</span> Rendicion de cuentas
+                </li>
+                <li>
+                  <span>●</span> Transparencia en la gestion
+                </li>
+                <li>
+                  <span>●</span> Dialogo con los vecinos
+                </li>
+              </ul>
             </div>
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
             <div className="step-item xcolor">
-              <span className="icon pe-7s-phone"></span>
-              <h6>Web &amp; App Development</h6>
-              <p>
-                Tempore corrupti temporibus fuga earum asperiores fugit
-                laudantium.
-              </p>
+              <h6>Servicios</h6>
+              <ul className="text-left">
+                <li>
+                  <span>●</span> Gestión de consulta Ciudadana
+                </li>
+                <li>
+                  <span>●</span> Turnos Online
+                </li>
+                <li>
+                  <span>●</span> Universidad Popular
+                </li>
+              </ul>
             </div>
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
             <div className="step-item xbottom">
-              <span className="icon pe-7s-magic-wand"></span>
-              <h6>Graphic Design</h6>
-              <p>
-                Tempore corrupti temporibus fuga earum asperiores fugit
-                laudantium.
-              </p>
+              <h6>Novedades</h6>
+              <ul className="text-left">
+                <li>
+                  <span>●</span> Noticias en Tiempo Real
+                </li>
+                <li>
+                  <span>●</span> Información de los Eventos
+                </li>
+                <li>
+                  <span>●</span> Transmisiones en Vivo
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <div className="smore">
-          <Link href="/about/about-dark">
-            <a>Discover More</a>
-          </Link>
-          <i className="fas fa-long-arrow-alt-right"></i>
-        </div>
       </div>
-      <div className="line top left"></div>
-      <div className="line bottom right"></div>
     </section>
   );
 };

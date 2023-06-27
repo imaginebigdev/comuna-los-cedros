@@ -8,6 +8,7 @@ import AboutUs4 from "../../components/About-us4/about-us4";
 import Intro5 from "../../components/Intro5/intro5";
 import Footer2 from "../../components/Footer2/footer2";
 import Services2 from "../../components/Services2/services2";
+import RadioPlayer from "../../components/Radio/radio-player";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -44,9 +45,11 @@ const Homepage1 = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
+        <RadioPlayer />
         <Services4 />
         <AboutUs4 />
         <Intro5 />
+
         <Blogs2 />
         <Intro5 />
         <Services2 />

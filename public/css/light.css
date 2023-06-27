@@ -1260,6 +1260,74 @@ span:hover {
 }
 
 /* ====================== [ End Text Animation & Images ] ====================== */
+.green-audio-player {
+  background-color: transparent;
+}
+
+.green-audio-player .audio-player {
+  background-color: transparent;
+}
+
+.green-audio-player .rhap_container {
+  background-color: transparent;
+}
+
+.green-audio-player .rhap_container .rhap_progress-section .rhap_progress-bar {
+  background-color: #000000;
+}
+
+.green-audio-player .rhap_container .rhap_time {
+  color: #69fe46;
+}
+.rhap_additional-controls {
+  display: none;
+}
+#rhap_current-time {
+  display: none;
+}
+
+.rhap_time {
+  display: none;
+}
+.rhap_forward-button {
+  display: none;
+}
+
+.rhap_rewind-button {
+  display: none;
+}
+
+.rhap_additional-controls {
+  display: none;
+}
+
+.rhap_volume-indicator {
+  display: none;
+}
+.reproductor-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .reproductor-container {
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .reproductor {
+      width: 20%;
+      text-align: center;
+      justify-content: center;
+      margin-right: 50px;
+    }
+  }
+}
 
 /* ====================== [ Start progress-wrap ] ====================== */
 .progress-wrap {

@@ -8156,7 +8156,7 @@ button {
   cursor: pointer;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 button:hover {
@@ -8986,6 +8986,7 @@ button:hover {
 
   .call-action .content h2 {
     font-size: 7vw;
+    
   }
 
   .portfolio .filtering .filter {

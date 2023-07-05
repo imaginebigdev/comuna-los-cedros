@@ -1,29 +1,23 @@
 import React, { useRef } from "react";
-import AudioPlayer from "react-h5-audio-player";
+import AudioPlayer from "react-audio-player";
 
 const RadioPlayer = () => {
   const audioPlayerRef = useRef(null);
   return (
     <section>
-      <div className="reproductor-container pt-50 text-center">
-        <div className="reproductor pb-50">
-          <h2 className="color-font">
-            ¡Escucha en vivo la Radio de la comuna!
+      <div className="reproductor-container pt-100 text-center" id="radio">
+        <div className="reproductor pb-80 pt-80">
+          <h2 className="color-font pb-50">
+            ¡Escuchá en vivo la Radio de la comuna!
           </h2>
           <AudioPlayer
-            className="audio-player green-audio-player"
-            ref={audioPlayerRef}
-            autoPlay={false}
+            className="play"
             src="https://01.solumedia.com.ar:7429/stream?icy=http"
-            onPlay={(e) => console.log("onPlay")}
-            onPause={(e) => console.log("onPause")}
-            onEnded={(e) => console.log("onEnded")}
-            style={{
-              width: "100%",
-              alignItems: "center",
-              color: "#69fa26",
-            }}
-          ></AudioPlayer>
+            controls
+            width="400px"
+            height="50px"
+            autoPlay={false}
+          />
         </div>
       </div>
     </section>

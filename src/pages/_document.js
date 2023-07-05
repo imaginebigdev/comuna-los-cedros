@@ -22,7 +22,7 @@ class MyDocument extends Document {
             content="Pagina oficial de la comuna los Cedros - Imagine Big"
           />
           <meta name="author" content="" />
-          <link rel="shortcut icon" href="/img/favicon.ico" />
+          <link rel="shortcut icon" href="/img/logo-loscedros.png" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
             rel="stylesheet"

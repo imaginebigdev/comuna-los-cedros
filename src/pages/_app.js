@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Comuna los Cedros</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href="/img/logo-loscedros.png" />
       </Head>
       <Cursor />
       <LoadingScreen />

@@ -3,13 +3,13 @@ import featuresData from "../../data/sections/features.json";
 
 const Services4 = ({ serviceMB50 }) => {
   return (
-    <section className="services box section-padding">
+    <section className="services box section-padding pt-100" id="servicios">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
-            <div className="sec-head  text-center">
+            <div className="sec-head  text-center pt-50">
               <h6 className="wow color-font">
-                Habla directamente con los responsables por WhatsApp
+                Hablá directamente con los responsables por WhatsApp
               </h6>
             </div>
           </div>
@@ -17,7 +17,7 @@ const Services4 = ({ serviceMB50 }) => {
         <div className="row">
           {featuresData.map((item, index) => (
             <div
-              className="col-lg-4 wow fadeInLeft mt-50"
+              className="col-lg-4 wow fadeInLeft mt-20"
               data-wow-delay={index == 0 ? ".5s" : index == 1 ? ".7s" : ".9s"}
               key={item.id}
             >
@@ -38,7 +38,7 @@ const Services4 = ({ serviceMB50 }) => {
                   rel="noreferrer"
                   href={`https://api.whatsapp.com/send?phone=${item.phone}`}
                 >
-                  Como llegar
+                  Contacto Directo
                 </a>
               </div>
             </div>

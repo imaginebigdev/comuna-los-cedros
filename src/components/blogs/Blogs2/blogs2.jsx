@@ -18,48 +18,39 @@ const Blogs2 = () => {
             <div className="item wow fadeInUp" data-wow-delay=".3s">
               <div className="img valign">
                 <Link href="" passHref>
-                  <img src="/img/blog/1.jpg" alt="" />
+                  <img src="/img/blog/01.jpg" alt="" />
                 </Link>
               </div>
               <div className="cont valign">
                 <div>
-                  <h5>
-                    <Link href="">
-                      <a>Escuela de fútbol</a>
-                    </Link>
-                  </h5>
+                  <h5>Escuela de fútbol</h5>
+                  <p>Miércoles y viernes de 16.30 a 18.30</p>
+                  <p style={{ fontStyle: "italic" }}>GRATIS</p>
                 </div>
               </div>
             </div>
             <div className="item wow fadeInUp" data-wow-delay=".5s">
               <div className="img valign">
-                <Link href="" passHref>
-                  <img src="/img/blog/2.jpg" alt="" />
-                </Link>
+                <img src="/img/blog/03.jpg" alt="" />
               </div>
               <div className="cont valign">
                 <div>
-                  <h5>
-                    <Link href="">
-                      <a>Adultos mayores.</a>
-                    </Link>
-                  </h5>
+                  <h5>Adultos mayores</h5>
+                  <Link href="https://api.whatsapp.com/send?phone=3515525738">
+                    <a style={{ fontStyle: "italic" }}>¡CONSULTAR!</a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="item wow fadeInUp" data-wow-delay=".3s">
               <div className="img valign">
-                <Link href="" passHref>
-                  <img src="/img/blog/3.jpg" alt="" />
-                </Link>
+                <img src="/img/blog/02.jpg" alt="" />
               </div>
               <div className="cont valign">
                 <div>
-                  <h5>
-                    <Link href="">
-                      <a>Humor y folclore.</a>
-                    </Link>
-                  </h5>
+                  <h5>Humor y folclore</h5>
+                  <p>Artistas invitados Y la mejor música</p>
+                  <p style={{ fontStyle: "italic" }}>Febrero 2023</p>
                 </div>
               </div>
             </div>

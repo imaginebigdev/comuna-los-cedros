@@ -8,11 +8,11 @@ const AboutUs4 = () => {
   console.clear();
   const [isOpen, setOpen] = React.useState(false);
   return (
-    <section className="about-cr">
+    <section className="about-cr" id="cultura">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 img md-mb50">
-            <img src="/img/intro/4.jpg" alt="" />
+            <img src="/img/festival.png" alt="" />
           </div>
           <div className="col-lg-4 valign">
             <div className="cont full-width">
@@ -25,7 +25,7 @@ const AboutUs4 = () => {
                 invitados, la mejor música y toda nuestra tradición. Te
                 esperamos!
               </p>
-              <Link href="/cultura">
+              <Link href="https://api.whatsapp.com/send?phone=3515525738">
                 <a
                   className="butn bord curve mt-30"
                   target="_blank"

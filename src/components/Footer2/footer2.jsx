@@ -23,57 +23,44 @@ const Footer2 = () => {
               </ul>
             </div>
           </div>
+
           <div className="col-lg-3 col-md-6">
             <div className="item-clumn links md-mb50">
               <h5 className="title">Servicios</h5>
               <ul>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Atención Ciudadana</a>
+                  <a href="https://api.whatsapp.com/send?phone=3515525738">
+                    Atención Ciudadana
+                  </a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Universidad Popular</a>
+                  <a href="https://api.whatsapp.com/send?phone=3515525738">
+                    Universidad Popular
+                  </a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Club Social</a>
+                  <a href="https://api.whatsapp.com/send?phone=3515525738">
+                    Club Social
+                  </a>
                 </li>
                 <li>
                   <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Turno Online</a>
+                  <a href="https://api.whatsapp.com/send?phone=3515525738">
+                    Turno Online
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-md-6">
-            <div className="item-clumn links sm-mb50">
-              <h5 className="title">Acceso rápido</h5>
-              <ul>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Defensa civil</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Contacto</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Servicio</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="0">Cultura</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <div className="col-lg-2 col-md-6"></div>
           <div className="col-lg-3 col-md-6">
             <div className="item-clumn links">
-              <h5 className="title mb-30">Contacto</h5>
-              <div className="logo" style={{ width: "100px" }}>
-                <img src="/img/logo-light.png" alt="" />
+              <h5 className="title mb-30">Redes Sociales</h5>
+              <div className="logo" style={{ width: "200px" }}>
+                <img src="/img/logo-loscedros-b.png" alt="" />
               </div>
               <div className="social mt-30">
                 <a
@@ -122,7 +109,7 @@ const Footer2 = () => {
             <div className="col-12">
               <div className="text-center">
                 <p>
-                  © 2023 Comuna los Cedros. Hecha con pasion por{" "}
+                  © 2023 Comuna los Cedros. Hecho con pasión por{" "}
                   <Link href="https://www.imaginebig.dev/">
                     <a target="_blank" style={{ color: "#9913b6" }}>
                       Imagine Big

@@ -23,7 +23,7 @@ const Intro5 = ({ bgImage }) => {
 
   return (
     <header id="arch-slider" className="slider arch-slider mt-100">
-      <div className="swiper-container parallax-slider">
+      <div className="swiper-container parallax-slider" id="novedades">
         {!load ? (
           <Swiper
             speed={1000}
@@ -73,11 +73,77 @@ const Intro5 = ({ bgImage }) => {
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
-                ></div>
+                >
+                  <div className="container">
+                    <div className="row justify-content-center">
+                      <div className="col-lg-8 col-md-10">
+                        <div className="caption center mt-30">
+                          <h1
+                            className="color-font"
+                            style={{
+                              fontStyle: "italic",
+                              textAlign: "center",
+                            }}
+                          >
+                            {slide.title.first}
+                          </h1>
+                          {slide?.title.second && (
+                            <p
+                              style={{
+                                fontStyle: "italic",
+                              }}
+                            >
+                              {slide.title.second}
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h1></h1>
+                  <h2></h2>
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
         ) : null}
+        <div className="social-icon">
+          <a
+            href="https://www.facebook.com/comunaloscedros"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://twitter.com/comunaloscedros"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/comunaloscedros/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/@comunaloscedros"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-youtube"></i>
+          </a>
+          <a
+            href="https://www.tiktok.com/@comunaloscedros/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-tiktok"></i>
+          </a>
+        </div>
       </div>
     </header>
   );

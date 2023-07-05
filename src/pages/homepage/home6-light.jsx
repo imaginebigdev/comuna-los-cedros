@@ -9,12 +9,14 @@ import Intro5 from "../../components/Intro5/intro5";
 import Footer2 from "../../components/Footer2/footer2";
 import Services2 from "../../components/Services2/services2";
 import RadioPlayer from "../../components/Radio/radio-player";
+import NavbarArch from "../../components/Navbar-arch/navbar-arch";
+import Intro6 from "../../components/Intro6/intro6";
+import CallToAction from "../../components/Call-to-action/call-to-action";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
 
   React.useEffect(() => {
     setInterval(() => {
@@ -42,17 +44,16 @@ const Homepage1 = () => {
 
   return (
     <LightTheme mobileappstyle>
-      <Navbar nr={navbarRef} lr={logoRef} />
+      <NavbarArch navbarRef={navbarRef} theme="themeL" />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <RadioPlayer />
         <Services4 />
         <AboutUs4 />
         <Intro5 />
-
         <Blogs2 />
-        <Intro5 />
         <Services2 />
+        <CallToAction />
         <Footer2 />
       </div>
     </LightTheme>
